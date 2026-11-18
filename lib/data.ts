@@ -1,0 +1,73 @@
+
+export const teams = [
+  {
+    id: 1,
+    name: "Arsenal",
+    slug: "arsenal",
+    played: 10,
+    won: 7,
+    drawn: 2,
+    lost: 1,
+    points: 23,
+  },
+  {
+    id: 2,
+    name: "Liverpool",
+    slug: "liverpool",
+    played: 10,
+    won: 7,
+    drawn: 1,
+    lost: 2,
+    points: 22,
+  },
+  {
+    id: 3,
+    name: "Manchester City",
+    slug: "manchester-city",
+    played: 10,
+    won: 7,
+    drawn: 1,
+    lost: 2,
+    points: 22,
+  },
+  {
+    id: 4,
+    name: "Chelsea",
+    slug: "chelsea",
+    played: 10,
+    won: 5,
+    drawn: 2,
+    lost: 3,
+    points: 17,
+  },
+];
+
+export const matches = [
+  {
+    id: "match-1",
+    homeTeam: "Arsenal",
+    awayTeam: "Liverpool",
+    homeScore: 2,
+    awayScore: 1,
+    date: "2026-11-15",
+    status: "Finished",
+  },
+  {
+    id: "match-2",
+    homeTeam: "Manchester City",
+    awayTeam: "Chelsea",
+    homeScore: 0,
+    awayScore: 0,
+    date: "2026-11-22",
+    status: "Upcoming",
+  },
+  {
+    id: "match-3",
+    homeTeam: "Liverpool",
+    awayTeam: "Manchester City",
+    homeScore: 1,
+    awayScore: 1,
+    date: "2026-11-29",
+    status: "Upcoming",
+  },
+];
